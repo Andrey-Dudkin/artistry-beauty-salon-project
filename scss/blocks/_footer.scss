@@ -1,0 +1,12 @@
+.footer{
+    width: 100%;
+    min-height: 122px;
+    background-color: var(--accent-color);
+}
+.footer__copywriting{
+    min-height: 122px;
+    display: flex;
+    align-items: center;
+    color: var(--second-color);
+    font-size: clamp(16px, 3vw, 24px);
+}

@@ -1,0 +1,54 @@
+.info-for-visitors {
+  position: relative;
+  padding-top: 105px;
+  padding-bottom: 100px;
+  background-color: var(--accent-color);
+}
+.border {
+  width: clamp(260px, 95vw, 780px);
+  height: 346px;
+  border-left: 2px solid var(--border-color);
+  background-image: var(--gradient-border-color), var(--gradient-border-color);
+  background-size: 100% 2px;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 55px;
+  right: 0;
+}
+
+.info-for-visitors__container {
+  max-width: 1254px;
+  margin: 0 auto;
+  padding: var(--padding-container);
+}
+.info-for-visitors__content {
+  display: flex;
+  justify-content: space-between;
+  color: var(--second-color);
+}
+.time-work {
+  font-size: 24px;
+}
+.time-work__text:first-child {
+  margin-bottom: 33px;
+}
+.time-work__number {
+  font-weight: 600;
+  font-size: clamp(32px, 5vw, 48px);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.special-offer {
+  font-size: 24px;
+  text-align: right;
+}
+.special-offer__text:first-child {
+  margin-bottom: 33px;
+}
+.special-offer__discount-number {
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

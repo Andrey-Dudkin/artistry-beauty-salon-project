@@ -1,0 +1,94 @@
+.our-works {
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 209px;
+}
+.our-works__title {
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+.our-works__container {
+  max-width: 1828px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.our-works__border {
+  width: clamp(457px, 96vw, 1199px);
+  height: clamp(437px, 65vw, 729px);
+  border-left: 3px solid var(--border-decoration-color);
+  background-image: linear-gradient(144deg, #daa977 0%, #e3b373 16%, #dea760 64%, #c3843e 82%, #af6b1f 100%),
+    linear-gradient(144deg, #daa977 0%, #f7d9bb 16%, #dea760 64%, #f7d9bb 82%, #dea760 100%);
+  background-size: 100% 3px;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 59px;
+  right: -130px;
+  z-index: 1;
+}
+.our-works__flex-container {
+  position: relative;
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.our-works__flex-container-1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.our-works__img-2 {
+  position: relative;
+  z-index: 10;
+}
+.our-works__img-3 {
+  flex-basis: 100%;
+}
+.our-works__flex-container-2 {
+  display: flex;
+  align-items: center;
+}
+.our-works__img-4 {
+  height: 100%;
+}
+.our-works__flex-container-3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+.our-works__img-6 {
+  position: relative;
+  z-index: 10;
+  flex-basis: 100%;
+}
+.swiper {
+  display: none;
+}
+.swiper-wrapper {
+  height: 503px;
+}
+.swiper-pagination {
+  position: absolute;
+  z-index: 10;
+}
+.swiper-pagination-bullet {
+  width: 18px;
+  height: 18px;
+  background-color: var(--accent-color);
+  position: relative;
+  z-index: 10;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 15px);
+}
+.swiper__image {
+  width: 100%;
+  height: 432px;
+  object-fit: cover;
+}
